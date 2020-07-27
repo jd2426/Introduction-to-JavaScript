@@ -1,17 +1,31 @@
 /************************************************************** Task 1: Warm-up! **************************************************************/
 //Task a: declare a variable called votingAge, console log true if age > 18 (no function required)
-
+let votingAge = 18
+let age = votingAge <= 24 // I used my own age.
+console.log(age)
 
 
 
 
 //Task b: declare a variable and then use a conditional to change the value of that variable based on the value assigned to a second variable (no function required)
+let myAge = 72;
+let isChild = myAge <= 7;
+let isSenior = myAge >= 65;
 
+if (isChild) {
+    console.log('WooHoo! You get the small child discount!')
+}
 
+if (isSenior) {
+    console.log('Woohoo! You get the senior discount!')
+}
 
 
 
 //Task c: Convert string ("1999") to integer (1999)  (no function required) // hint look up the Number method
+let year = "1999"
+let ageAsNumber = parseInt(year)
+console.log(ageAsNumber)
 
 
 
@@ -23,10 +37,13 @@
 
 
 
+
 /************************************************************** Task 2 **************************************************************/
 //Age in Dog years
 //write a function that takes your age and returns it to you in dog years - they say that 1 human year is equal to seven dog years 
-
+let humanYear = 24
+let dogAge = humanYear / 7
+console.log(dogAge)
 
 
 
@@ -61,18 +78,23 @@
 // hint while you can complete this with only conditionals based on strings it may help to equate choice to a number 
 
   
+
   
 
 /************************************************************** Task 5 **************************************************************/
 //Metric Converter
 //a. KM to Miles - should take the number of kilometers and convert it to the equal number of miles
-
+let kilometers = 10
+let miles = kilometers * 0.621371
+console.log(miles)
 
 
 
 
 //b. Feet to CM - should take the number of feet and convert it to the equal number of centimeters
-  
+  let feet = 1
+  let cm = feet * 30.48
+  console.log(cm)
 
 
 
