@@ -33,8 +33,9 @@ console.log(ageAsNumber)
 
 //Task d: Write a function to multiply a*b 
 let a = 10
-a = a *5
-console.log(a)
+let b = 5
+let answer = a * b 
+console.log(answer)
 
 
 
